@@ -6,7 +6,7 @@ For calculatinng the positive integers we can use the formula k-1Cn-1
 And we will be combining these two formulas to get the answere
 
 ### The algorithm is as follows:
-> First we will be load the numbers n and k.
-> The we will need to find the integral solutions of non-negative and positive numbers.
-> Later we will be adding both of those formulas.
-> And at last returning the answer.
+1. First we will be load the numbers n and k.
+2. The we will need to find the integral solutions of non-negative and positive numbers.
+3. Later we will be adding both of those formulas.
+4. And at last returning the answer.

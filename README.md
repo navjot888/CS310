@@ -1,4 +1,4 @@
-# CS310
+# CS310 Assignment #2
 We can the missing Triominoes problem in the following way:
 
 ### The algorithm is as follows:

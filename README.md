@@ -1,10 +1,15 @@
 # CS310
-We can calculate the problem by resursion function.
-
+We can the missing Triominoes problem in the following way:
 
 ### The algorithm is as follows:
-1. First we create a recursion function for printing all the bit sequences without any consecutivce 0's
-2. Then we will list the base for printing the list of the bit sequence.
-3. The we will be cojoining 0 to the final output and recurring with 1 digit less if and only if the last of the bit number is 1
-4. Then calling the recursion function to append 1 to the results and recur with 1 less digit
-5. And at last creating the maing function for inputting the numbers.
+1. We have declared a Variable names VAR
+2. Then created a point to link the two Variable X and Y
+3. Created a function to display the 2-Dimensional Vector
+4. Function to create a hole into the block
+5. And a function to determine the spot occupied by the hole or loop
+6. The code iterates further while locating the quadrants where the loop will be created
+7. Then it defines a function to drop tile on the block
+8. Then applied the divide and conquer recursive algorithm to incremenrt the tile where at last it stops iterating 
+9. Later it finds the block in each of the 4 different quadrants and drops them intuitively
+10. The problem is then further divided in to smaller subgroups
+11. And finally it reaches the main function where the user is asked to enter the value greater than or equal to 3 and if the value if less than 3, the function stops.

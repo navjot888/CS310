@@ -1,12 +1,10 @@
-# CS310 Assignment #3
-This function calculates the average numnber of comparisons by following the algorithm below
+# CS310 Assignment #5
+We can calculate the problem by resursion function.
 
-1. We have introduced a swapping function which is used to assemble the elements in order if they then to be out of order
-2. Then we have introduced the bubble sort to sort the elements.
-3. Inside the bubble sort we have introduced a variable named comparison and then generated a for loop.
-4. Later in that for loop we have introdroduced another variable named traverse and a for loop under it.
-5. It then proceeds by loopiing along the for loop.
-6. And if there is no change in the sorting then it returns back to the initial state by returnign the comparison variable.
-7. We have then created the function for calculating the average number of comparisons using float.
-8. First initialised the total_comparison to zero
-9. Then inintialized the while loop which keeps on iterating until it finds the average number of comparisons when the inputs n and m are provided.
+
+### The algorithm is as follows:
+1. First we create a recursion function for printing all the bit sequences without any consecutivce 0's
+2. Then we will list the base for printing the list of the bit sequence.
+3. The we will be cojoining 0 to the final output and recurring with 1 digit less if and only if the last of the bit number is 1
+4. Then calling the recursion function to append 1 to the results and recur with 1 less digit
+5. And at last creating the maing function for inputting the numbers.
